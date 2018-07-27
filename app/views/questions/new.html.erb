@@ -1,0 +1,23 @@
+
+
+
+<%= form_for @question do |f| %>
+  <h3>
+    お問い合わせ
+  </h3>
+  <div class="field">
+  <%= f.label :name, "名前" %><br>
+  <%= f.text_field :name, placeholder: '山田太郎' %>
+  </div>
+  <div class="field">
+  <%= f.label :address, "メールアドレス" %><br>
+  <%= f.email_field :address, placeholder: 'name@example.com' %>
+  </div>
+  <div class="content">
+  <%= f.label :text, "内容" %><br>
+  <%= f.text_area :text, placeholder: 'コメント' %>
+  </div>
+  <div class="actions">
+  <%= f.submit "送信する" %>
+  </div>
+<% end %>

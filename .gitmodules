@@ -1,0 +1,3 @@
+[submodule "inquiry"]
+	path = inquiry
+	url = https://github.com/Joe-Jack/homepage.git

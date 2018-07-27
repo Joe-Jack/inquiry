@@ -1,0 +1,126 @@
+body {
+	background-color: #f0f0f0;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #333;
+	MARGIN: 0 auto;
+	}
+H1, H2, H3, H4, H5, H6, P {
+	padding: 10PX 37px;
+	margin: 0;
+}
+header {
+	background-color: white;
+	height: 700px;
+	width: 1400px;
+	margin: 0 auto;
+	
+}
+
+header img {
+  height: 700px;
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.icon {
+	background-color: red;
+	height: 70px;
+	width: 1400px;
+	top: 10px;
+	font-family: fantasy;
+	margin: 0 auto;
+	opacity: 0.8;
+	position: absolute;
+
+}
+.name {
+	font-family: cursive;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+ul {
+  margin-top: 10px;
+  list-style: none;
+  float: left;
+  font-size: 18px;
+}
+ul li {
+  margin: 0;
+  line-height: 10%;
+  padding-right: 90px;
+  float: left;
+}
+
+.explain {
+  position: absolute;
+  /*background-color: black;*/
+  top: 430px;
+	left: 280px;
+  height: 200px;
+  width: 500px;
+  opacity: 1;
+}
+.explain h5 {
+  font-size: 20px;
+  color: white;
+}
+.explain p {
+  font-size: 18px;
+  color:  white;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.contents {
+	background-color: white;
+	width: 1400px;
+	height: 400px;
+	margin: 0 auto;
+	}
+.info {
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  float: left;
+}
+table tr td {
+  font-size: 22px;
+  padding: 10px 60px;
+}
+
+.left_name {
+  text-align: right;
+}
+.history {
+  left: 0;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  float: left;
+}
+.history h4 {
+  font-size: 22px;
+  padding-left: 20px 60px;
+}
+.blank {
+  margin: 0 auto;
+  height: 10px;
+  width: 1400px;
+  background-color: white;
+}
+
+footer {
+  width: 1400px;
+  height: 50px;
+  text-align: right;
+	background-color: white;
+	margin: 0 auto;
+}
+  
